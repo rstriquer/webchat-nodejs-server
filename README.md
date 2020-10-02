@@ -32,7 +32,7 @@ languages and vice versa in a simpler way.
 
 Afther cloning the project you can follow the itens bellow to get it running
 
-## Run and configure the database
+## Run and configure the database and JWT
 
 The system cames with a MySQL docker compose file, you just go to the project
 folder and run ```docker-compose up -d```, it will start a container with a
@@ -50,6 +50,10 @@ the learning of a programming language, not this security standard.
 
 To turn off the docker container you run ```docker-compose down``` at
 project root directory level.
+
+You can change the JWT key in the JWT_SECRET token directly in the ".env" file,
+if you wish. Remember that if the application is running, you will have to
+restart the application for the changes to take place.
 
 ## migrations
 
@@ -109,3 +113,12 @@ And start the server
 ```bash
 npm run dev
 ```
+
+
+# Terms of use
+
+This repository is made available as is, without guarantees of operation or of
+any nature.
+
+The distribution laws follow the same laws as the original project mentioned at
+the beginning of this document.
