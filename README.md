@@ -60,7 +60,7 @@ restart the application for the changes to take place.
 To create the database tables you run the migrations, if you wish only to try
 the system you can run the seeders. But first you run migration anyway
 ```bash
-npx sequelize-cli db:migrate:all
+npx sequelize-cli db:migrate
 ```
 
 Then you run the seeders, but it's not mandatory
